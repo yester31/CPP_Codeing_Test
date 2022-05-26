@@ -10,25 +10,21 @@ void ex010() {
     vector<int> number{ 125, 15232, 79, 1325, 97 };
     int max = 0;
     int max_idx;
-    for (int i = 0; i < number.size(); i++)
-    {
+    for (int i = 0; i < number.size(); i++){
         int target = number[i];
         int sum = 0;
-        while (target)
-        {
+
+        while (target){
             sum += target % 10;
             target /= 10;
         }
 
-        if (max < sum)
-        {
+        if (max < sum){
             max = sum;
             max_idx = i;
         }
-        else if (max == sum)
-        {
-            if (number[max_idx] < number[i])
-            {
+        else if (max == sum){
+            if (number[max_idx] < number[i]){
                 max = sum;
                 max_idx = i;
             }
@@ -37,7 +33,6 @@ void ex010() {
 
     cout << "max number : " << number[max_idx] << ", sum max :: " << max << endl;
 }
-
 
 //int main() {
 //    ex010();

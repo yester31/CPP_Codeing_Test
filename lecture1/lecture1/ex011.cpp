@@ -6,30 +6,25 @@ using namespace chrono;
 
 // 숫자의 총 개수 (small)
 
-void ex011() {
+void ex011(int N) {
     auto start = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count();
-
-    int N = 15;
     int cnt = 0;
-    for (int i = 1; i < N + 1; i++)
-    {
+    for (int i = 1; i < N + 1; i++){
         int target = i;
-        while (target)
-        {
+        while (target){
             cnt++;
             target /= 10;
         }
     }
-
     cout << cnt << endl;
-
     auto dur = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count() - start;
     std::cout << std::endl << "ex011 1 Dur time :: " << dur << " milliseconds" << std::endl;
 }
 
 
-int main() {
-    ex011();
-    std::cout << "done!" << std::endl;
-}
+//int main() {
+//    int N = 15;
+//    ex011(N);
+//    std::cout << "done!" << std::endl;
+//}
 // 21
