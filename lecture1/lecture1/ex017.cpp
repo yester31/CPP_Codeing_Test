@@ -28,10 +28,10 @@ void ex017() {
     }
 }
 
-int main() {
-    ex017();
-    std::cout << "done!" << std::endl;
-}
+//int main() {
+//    ex017();
+//    std::cout << "done!" << std::endl;
+//}
 //YES
 //NO
 //YES

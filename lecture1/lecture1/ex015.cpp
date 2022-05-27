@@ -40,7 +40,10 @@ void ex015_2(int N) {
                 break;
             }
         }
-        if (flag) count++;
+        if (flag) {
+            count++;
+            //cout << j << endl;
+        }
     }
 
     auto dur = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count() - start;
@@ -78,7 +81,7 @@ void ex015_3(int N) {
 
 
 //int main() {
-//    int max = 399999;
+//    int max = 20;
 //    ex015_1(max);
 //    ex015_2(max);
 //    ex015_3(max);
