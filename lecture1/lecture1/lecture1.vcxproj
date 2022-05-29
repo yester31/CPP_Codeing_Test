@@ -165,6 +165,16 @@
     <ClCompile Include="ex040.cpp" />
     <ClCompile Include="ex041.cpp" />
     <ClCompile Include="ex042.cpp" />
+    <ClCompile Include="ex043.cpp" />
+    <ClCompile Include="ex044.cpp" />
+    <ClCompile Include="ex045.cpp" />
+    <ClCompile Include="ex046.cpp" />
+    <ClCompile Include="ex047.cpp" />
+    <ClCompile Include="ex048.cpp" />
+    <ClCompile Include="ex049.cpp" />
+    <ClCompile Include="ex050.cpp" />
+    <ClCompile Include="ex051.cpp" />
+    <ClCompile Include="ex052.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
