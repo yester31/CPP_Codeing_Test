@@ -27,9 +27,9 @@ void ex054() {
     }
 }
 
-int main() {
-    ex054();
-    std::cout << "done!" << std::endl;
-}
+//int main() {
+//    ex054();
+//    std::cout << "done!" << std::endl;
+//}
 //NO
 //YES
