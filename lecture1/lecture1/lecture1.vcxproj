@@ -186,6 +186,8 @@
     <ClCompile Include="ex061.cpp" />
     <ClCompile Include="ex062.cpp" />
     <ClCompile Include="ex063.cpp" />
+    <ClCompile Include="ex064.cpp" />
+    <ClCompile Include="ex065.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
