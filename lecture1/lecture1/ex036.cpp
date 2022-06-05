@@ -10,10 +10,11 @@ using namespace chrono;
 
 void ex036() {
     vector<int> a{ 7, 11, 5, 6, 10, 9 };
-    int j;
+    
     for (int i = 1; i < a.size(); i++) {
         int tmp = a[i];
-        for (j = i - 1; j >= 0; j--) {
+        int j;
+        for (j = i - 1; j >= 0; j--) { // 역순회
             if (a[j] > tmp) {
                 a[j + 1] = a[j]; // 뒤로 이동
             }
@@ -21,8 +22,9 @@ void ex036() {
                 break;
             }
         }
-        a[j + 1] = tmp; // 현재까지 정렬된 숫자들 바로 뒤에 삽입
+        a[j + 1] = tmp; // 현재까지 정렬된 숫자들 앞에 삽입
     }
+    // 결과 출력
     for (int i = 0; i < a.size(); i++) {
         cout << a[i] << ' ';
     }

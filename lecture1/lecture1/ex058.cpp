@@ -43,7 +43,6 @@ void ex058() {
     dfs_mid(1);
     cout << endl;
     dfs_post(1);
-
 }
 
 //int main() {

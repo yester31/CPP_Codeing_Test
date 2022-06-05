@@ -23,6 +23,7 @@ void sort_insert2(vector<int> & vec) {
 void ex042() {
     int M = 32;
     vector<int> a{ 23, 87, 65, 12, 57, 32, 99, 81 };
+
     sort_insert2(a); // 오른차순 정렬
     int lt = 0;
     int rt = a.size() - 1;
