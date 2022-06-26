@@ -18,15 +18,15 @@ void ex063() {
                         {4, 2, 2},
                         {4, 5, 5},
                         {6, 4, 5} };
-    vector<vector<int>> outputs(n, vector<int>(n, 0));
+    vector<vector<int>> map(n, vector<int>(n, 0));
 
     for (int i = 0; i < inputs.size(); i++) {
-        outputs[inputs[i][0] - 1][inputs[i][1] - 1] = inputs[i][2];
+        map[inputs[i][0] - 1][inputs[i][1] - 1] = inputs[i][2];
     }
 
-    for (int i = 0; i < outputs.size(); i++) {
-        for (int j = 0; j < outputs[0].size(); j++) {
-            cout << outputs[i][j] << " ";
+    for (int i = 0; i < map.size(); i++) {
+        for (int j = 0; j < map[0].size(); j++) {
+            cout << map[i][j] << " ";
         }cout << endl;
     }
 }
