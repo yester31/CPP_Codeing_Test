@@ -46,8 +46,8 @@ void ex068() {
     cout << cost << endl;
 }
 
-int main() {
-    ex068();
-    cout << endl << "done!" << endl;
-}
+//int main() {
+//    ex068();
+//    cout << endl << "done!" << endl;
+//}
 // 13
