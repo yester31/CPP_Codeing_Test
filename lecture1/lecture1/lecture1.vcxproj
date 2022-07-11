@@ -194,7 +194,14 @@
     <ClCompile Include="ex068.cpp" />
     <ClCompile Include="ex070.cpp" />
     <ClCompile Include="ex071.cpp" />
+    <ClCompile Include="ex072.cpp" />
+    <ClCompile Include="ex073.cpp" />
+    <ClCompile Include="ex074.cpp" />
+    <ClCompile Include="ex075.cpp" />
+    <ClCompile Include="ex077.cpp" />
+    <ClCompile Include="ex078.cpp" />
     <ClCompile Include="tt.cpp" />
+    <ClCompile Include="vector_with_struct.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
