@@ -198,6 +198,7 @@
     <ClCompile Include="ex073.cpp" />
     <ClCompile Include="ex074.cpp" />
     <ClCompile Include="ex075.cpp" />
+    <ClCompile Include="ex076.cpp" />
     <ClCompile Include="ex077.cpp" />
     <ClCompile Include="ex078.cpp" />
     <ClCompile Include="tt.cpp" />
