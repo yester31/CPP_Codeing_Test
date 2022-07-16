@@ -201,6 +201,7 @@
     <ClCompile Include="ex076.cpp" />
     <ClCompile Include="ex077.cpp" />
     <ClCompile Include="ex078.cpp" />
+    <ClCompile Include="ex079.cpp" />
     <ClCompile Include="tt.cpp" />
     <ClCompile Include="vector_with_struct.cpp" />
   </ItemGroup>
